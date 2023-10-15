@@ -1,8 +1,8 @@
 const example = [
+  ["Ali", "Ahmad", "Ahmad"],
   ["Ahmad", "Ahmad", "Ahmad"],
-  ["Ahmad", "Ahmad", "Ahmad"],
-  ["Ahmad", "Ahmad", "Mohammad"]
-];
+  ["Ahmad", "Ahmad", "Ahmad"]
+]
 
 const whereIsWaldo = (arr) => {
   const diff = arr[0][0];
@@ -14,6 +14,6 @@ const whereIsWaldo = (arr) => {
       }
     }
   }
-};
+}
 
-console.log(whereIsWaldo(example));
+console.log(whereIsWaldo(example))
